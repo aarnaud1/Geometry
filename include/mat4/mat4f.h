@@ -49,7 +49,7 @@ typedef union
   vec4f_t lines[4];
 } mat4f_t;
 
-#ifdef __clpusplus
+#ifdef __cplusplus
 extern "C" {
 #endif
 
@@ -96,7 +96,7 @@ inline mat4f_t mat4f_create_perspective(
 
 inline vec4f_t mat4f_transform(const vec4f_t v, const mat4f_t m);
 
-#ifdef __clpusplus
+#ifdef __cplusplus
 }
 #endif
 
