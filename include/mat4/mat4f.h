@@ -26,7 +26,7 @@
 #include "vec4/vec4f.h"
 
 #define MAT4F_PRINT(m)                                                         \
-  frintf(                                                                      \
+  fprintf(                                                                      \
       stdout,                                                                  \
       "\n%f, %f, %f, %f, \n"                                                   \
       "%f, %f, %f, %f\n"                                                       \
